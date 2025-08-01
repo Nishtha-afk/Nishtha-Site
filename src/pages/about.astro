@@ -2,6 +2,7 @@
 // MainLayout and component
 import MainLayout from "../layouts/MainLayout.astro";
 import Button from "../components/Button.astro";
+import ImageCard from "../components/ImageCard.astro";
 ---
 
 <MainLayout title="About">
@@ -17,6 +18,8 @@ import Button from "../components/Button.astro";
 
 	<h3>Example Component</h3>
 	<p>This button uses the Button component with a custom text prop:</p>
+	<ImageCard  link="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg" caption="Birddd" height="200" />
+
 
 	<!-- Example of using a component -->
 	<Button text="I'm a Component!" />
